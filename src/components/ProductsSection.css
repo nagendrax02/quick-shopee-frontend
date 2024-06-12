@@ -1,0 +1,17 @@
+.products-section{
+    display: grid;
+    width: 100%;
+    overflow: inherit;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 2fr));
+    grid-row-gap: 20px;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.product-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* min-width: 317px; */
+    /* max-width: auto; */
+}

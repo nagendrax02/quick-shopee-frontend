@@ -1,0 +1,146 @@
+
+*{
+    box-sizing: border-box;
+}
+
+
+.desktop-header{
+    background-color: aquamarine;
+    width: 100%;
+    height: 10rem;
+  
+}
+
+.row-1{
+    width: 100%;
+    height: 7rem;
+    background-color: #131921;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    overflow: scroll;
+    font-size: large;
+    
+
+
+}
+.input-box-parent{
+    position: relative;
+    width: 50%;
+    /* background-color: red; */
+}
+
+.row-1 > div > input{
+    width: 100%;
+    height: 5vh;
+    border-radius: 10px;
+    font-size: large;
+}
+
+.search-icon{
+    position: absolute;
+   /* background-color: #FFD814; */
+   color: #131921;
+   /* padding: 25px; */
+   /* box-sizing: content-boxbor; */
+    top: 13%;
+    size: 100;
+    right: 2%;
+    border-radius: 5px;
+}
+
+.row-2{
+    width: 100%;
+    height: 3rem;
+    background-color: #222F3E;
+}
+
+.address-main-div{
+    display: flex;
+    font-size: large;
+}
+
+.address-childrens{
+    display: flex;
+    flex-direction: column;
+}
+
+.language-div{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+   border: none;
+   position: relative;
+}
+
+.language-div:hover{
+    border: 1px solid white;
+    padding: 10px;
+    
+}
+
+.language-card{
+    background-color: white;
+    color: black;
+    padding: 10px;
+    position: absolute;
+    top: 53px;
+    z-index: 100000;
+    display: none;
+    flex-direction: column;
+    width: 20vh;
+    padding: 40px;
+    font-size: large;
+    gap: 20px;
+    border-radius: 10px;
+    /* display: hidden; */
+    
+}
+
+.lan-label-input > label input{
+    margin-left: 30px;
+    font-size: large;
+}
+
+/* .language-card > label{
+    display: inline-block;
+} */
+
+.sign-in-main-div{
+    position: relative;
+    /* padding: 20px; */
+}
+
+.sign-in-card{
+    background-color: white;
+    color: black;
+    position: absolute;
+    width: 500px;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    gap: 20px;
+    z-index: 100000;
+    border-radius: 10px;
+    top: 43px;
+    /* right: -10%; */
+}
+
+.sign-in-main-div:hover{
+    border: 1px solid white;
+    padding: 10px;
+    
+}
+
+.sign-in-card > button{
+    width: 50%;
+    height: 3vh;
+    background-color: #FFD814;
+    border: none;
+    border-radius: 5px;
+    font-size: large;
+}

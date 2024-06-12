@@ -1,0 +1,8 @@
+.mob-scroll-section{
+    display: flex;
+    flex-direction: row;
+    overflow-x: scroll;
+    gap: 10px;
+    padding: 10px;
+    min-width: 327px;
+}

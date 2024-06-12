@@ -1,0 +1,21 @@
+.carousal{
+    width: 90%;
+    margin: auto;
+    position: relative;
+}
+.carousal > img{
+    width: 100%;
+}
+
+.left-icon{
+    position: absolute;
+    top: 10%;
+    left: 5%;
+}
+
+.right-icon{
+    position: absolute;
+    top: 10%;
+    right: 5%;
+    /* top: 250px; */
+}

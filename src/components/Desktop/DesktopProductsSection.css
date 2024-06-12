@@ -1,0 +1,23 @@
+.desktop-products-section{
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 100fr));
+    gap: 50px;
+    margin-top: 20px;
+    padding: 20px;
+    /* justify-content: center; */
+    /* align-items: center; */
+    background-color: red;
+}
+
+.desktop-product-section{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    /* background-color: rebeccapurple; */
+}
+
+.desktop-product-section > span{
+    text-align: center;
+}
