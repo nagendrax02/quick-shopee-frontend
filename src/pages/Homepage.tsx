@@ -6,6 +6,8 @@ import MobileScrollGallery from "../components/MobileScrollGallery";
 import { useMediaQuery } from "react-responsive";
 import ProductsSection from "../components/ProductsSection";
 import DesktopProductsSection from "../components/Desktop/DesktopProductsSection";
+import Slider from "../components/mobileAndTablet/Slider";
+
 function Homepage() {
   const isDesktopOrLaptop = useMediaQuery({
     query: "(min-width: 663px)",
@@ -26,6 +28,7 @@ const items = [
 
   return (
     <>
+    <Slider/>
       {isDesktopOrLaptop && <DesktopHeader />}
 
       {isTabletOrMobile && <MobileHeader />}
@@ -33,6 +36,7 @@ const items = [
       {isTabletOrMobile && <MobileScrollGallery items={items} />}
       {isTabletOrMobile && <ProductsSection products = {items}/> }
       {isDesktopOrLaptop && <DesktopProductsSection products={items} />}
+      
     </>
   );
 }

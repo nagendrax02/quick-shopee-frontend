@@ -1,0 +1,45 @@
+.slider{
+    width: 90%;
+    height: 100vh;
+    /* background-color: red; */
+    z-index: 10000;
+    position: fixed;
+    backdrop-filter: blur(10px);
+}
+
+.display{
+    display: block;
+}
+
+.hide{
+    display: none;
+}
+
+.top-section{
+    background-color: #131921;
+    height: 15vh;
+    width: 100%;
+}
+
+.sign-in-label-icon{
+    color: white;
+    display: flex;
+    /* background-color: red; */
+    justify-content: end;
+    padding: 10px;
+    align-items: center;
+    gap: 10px;
+
+}
+.slider-heading{
+    color: white;
+    background-color: teal;
+    padding: 10px;
+}
+
+.close-icon{
+    color: white;
+    position: absolute;
+    right: -8%;
+    top: 5%;
+}
